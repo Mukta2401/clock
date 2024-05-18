@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+#watch{
+   height: 100vh; 
+   background-color:rgba(0, 255, 255, 0.301);
+    
+}
+#watch .container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#watch .box{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    background-color: black;
+    margin: 0 20px;
+    text-align: center;
+    line-height: 100px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
